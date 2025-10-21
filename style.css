@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+
+nav {
+  background-color:black;
+  padding: 15px 30px;
+  display:block;
+
+  
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+
+header {
+  background: url('headerbg.png') no-repeat center center/cover;
+  background-size:cover ;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 30;
+  margin: 10px;
+}
+header p {
+  font-size: 20px;
+  margin: 20px;
+}
+
+header button {
+  padding: 10px 20px;
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.features {
+  text-align: center; 
+  margin-top: 30px;
+}
+
+.feature {
+  display: inline-block;
+  background-color: white;
+  padding: 20px;
+  width: 250px;
+  margin: 10px;          
+  text-align: center;
+  border-radius: 10px;
+}
+
+.feature img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+
+.gallery {
+  text-align: center;  
+  margin-top: 30px;
+}
+
+.gallery img {
+  display: inline-block; 
+  width: 200px;          
+  height: 200px;         
+  margin: 5px;
+}
+
+
+footer {
+  
+  background: linear-gradient(90deg, #939faa, #004080); 
+  color: white;           
+  padding: 40px 20px;
+  text-align: center;
+}
+ 
+footer h2 {
+  margin: 10px;
+}
+
+footer p {
+  margin: 20px;
+}
+
+
+footer form {
+  width: 400px;
+  margin: auto;
+}
+
+footer input, footer textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid white;        
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+  
+}
+
+footer button {
+  padding: 10px 20px;
+  background-color: rgba(255,255,255,0.2);  
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  
+}
+
+
+footer button:hover {
+  background-color: white;
+  color: black;
+}
